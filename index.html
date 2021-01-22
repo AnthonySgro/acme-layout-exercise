@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACME Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul id="navbar-container">
+            <li class="navbar-item" id="brandname">
+                Acme Layout
+            </li>
+            <li class="navbar-item">
+                Users
+            </li>
+            <li class="navbar-item">
+                Departments
+            </li>
+            <li class="navbar-item">
+                Contacts
+            </li>
+        </ul>
+    </header>
+    <section>
+        <h2>Users</h2>
+        <div id="form-container">
+            <form action="#">
+                <div id="header-div">
+                    <h3>Create A User</h3>
+                </div>
+                <div id="user-interface">
+                    <div id="first-name-group">
+                        <label id="firstname-label" for="firstname">First Name:</label>
+                        <input type="text" id="firstname" name="firstname">        
+                    </div>
+                    <div id="last-name-group">
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" id="lastname" name="lastname">        
+                    </div>
+                    <div id="department-group">
+                        <label for="department">Department:</label>
+                        <select name="department" id="department">  
+                            <option value="">-- None --</option>
+                        </select>    
+                    </div>
+                    <div id="btn-container">
+                        <button id="clear-btn">Clear</button>
+                        <button id="save-btn">Save</button>    
+                    </div>    
+                </div>
+            </form>
+        </div>
+        <div id="user-containers">
+            <div class="user-box" id="user1">
+                <h4>User A</h4>
+                <p>Some text for the user</p>
+            </div>
+            <div class="user-box" id="user2">
+                <h4>User A</h4>
+                <p>Some text for the user. Some text for the user. Some text for the user. Some text for the user. Some text for the user. Some text for the user.</p>
+            </div>
+            <div class="user-box" id="user3">
+                <h4>User A</h4>
+                <p>Some text for the user</p>
+            </div>
+            <div class="user-box" id="user4">
+                <h4>User A</h4>
+                <p>Some text for the user</p>
+            </div>
+            <div class="user-box" id="user5">
+                <h4>User A</h4>
+                <p>Some text for the user</p>
+            </div>
+            <div class="user-box" id="user6">
+                <h4>User A</h4>
+                <p>Some text for the user</p>
+            </div>
+            <div class="user-box" id="user7">
+                <h4>User A</h4>
+                <p>Some text for the user</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

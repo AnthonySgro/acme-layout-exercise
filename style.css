@@ -1,0 +1,147 @@
+* {
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    margin: 0rem;
+}
+
+header {
+    background-color: dodgerblue;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0rem;
+    margin: 1rem;
+}
+
+#brandname {
+    width: auto;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+ul > li {
+    list-style-type: none;
+    margin: .5rem;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    color: rgb(82, 82, 82);
+}
+
+#form-container {
+    align-self: center;
+    border: 2px solid gray;
+    border-radius: .5rem;
+    width: 50%;
+    min-width: 376px;
+    margin: 1rem;
+}
+
+form {
+    margin: 1rem;
+}
+
+#user-interface {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#user-interface > div {
+    margin: .5rem 0rem;
+}
+
+#user-interface > div > label {
+    font-weight: bold;
+}
+
+#btn-container {
+    align-self: center;
+}
+
+#first-name-group, #last-name-group, #department-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#firstname, #lastname, #department {
+    margin-left: auto;
+    width: 70%
+} 
+
+#firstname, #lastname, #department {
+    align-self: center;
+}
+
+#save-btn, #clear-btn {
+    margin: 0px;
+    outline: none;
+    border: 1px solid black;
+}
+
+#save-btn {
+    background-color: dodgerblue;
+}
+
+#user-containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user-box {
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    width: 20rem;
+}
+
+.user-box p {
+    margin: 1rem;
+    margin-bottom: auto;
+}
+
+@media (max-width: 500px) {
+    ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #first-name-group, #last-name-group, #department-group {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #firstname, #lastname, #department {
+        margin: auto;
+        width: 70%
+    } 
+    
+    #firstname, #lastname, #department {
+        align-self: center;
+    }
+
+
+}
